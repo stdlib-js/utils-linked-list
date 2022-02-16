@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-linked-list",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Linked list.",
   "license": "Apache-2.0",
   "author": {
