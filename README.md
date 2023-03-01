@@ -435,8 +435,8 @@ len = list.length;
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/doubly-linked-list`][@stdlib/utils/doubly-linked-list]</span><span class="delimiter">: </span><span class="description">doubly linked list.</span>
--   <span class="package-name">[`@stdlib/utils/stack`][@stdlib/utils/stack]</span><span class="delimiter">: </span><span class="description">stack.</span>
+-   <span class="package-name">[`@stdlib/utils-doubly-linked-list`][@stdlib/utils/doubly-linked-list]</span><span class="delimiter">: </span><span class="description">doubly linked list.</span>
+-   <span class="package-name">[`@stdlib/utils-stack`][@stdlib/utils/stack]</span><span class="delimiter">: </span><span class="description">stack.</span>
 
 </section>
 
