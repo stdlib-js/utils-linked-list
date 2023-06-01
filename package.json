@@ -41,7 +41,8 @@
     "@stdlib/types": "^0.0.14",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.7",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.7",
-    "@stdlib/utils-define-property": "^0.0.9"
+    "@stdlib/utils-define-property": "^0.0.9",
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/assert-instance-of": "^0.0.8",
