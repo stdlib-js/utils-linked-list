@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import linkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-linked-list@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-linked-list/tags). For example,
+
+```javascript
 import linkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-linked-list@v0.1.1-deno/mod.js';
 ```
 
@@ -365,7 +370,7 @@ v = list.pop();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import linkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-linked-list@v0.1.1-deno/mod.js';
+import linkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-linked-list@deno/mod.js';
 
 // Create a new linked list:
 var list = linkedList();
