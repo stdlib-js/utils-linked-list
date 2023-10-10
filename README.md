@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import linkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-linked-list@deno/mod.js';
+import linkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-linked-list@v0.1.1-deno/mod.js';
 ```
 
 #### linkedList()
@@ -365,7 +365,7 @@ v = list.pop();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import linkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-linked-list@deno/mod.js';
+import linkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-linked-list@v0.1.1-deno/mod.js';
 
 // Create a new linked list:
 var list = linkedList();
