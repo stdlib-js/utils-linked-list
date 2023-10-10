@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import linkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-linked-list@esm/index.mjs';
+import linkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-linked-list@v0.1.1-esm/index.mjs';
 ```
 
 #### linkedList()
@@ -370,7 +370,7 @@ v = list.pop();
 <body>
 <script type="module">
 
-import linkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-linked-list@esm/index.mjs';
+import linkedList from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-linked-list@v0.1.1-esm/index.mjs';
 
 // Create a new linked list:
 var list = linkedList();
