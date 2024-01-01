@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var instanceOf = require( '@stdlib/assert-instance-of' );
 var randu = require( '@stdlib/random-base-randu' );
 var pkg = require( './../package.json' ).name;
