@@ -1,10 +1,33 @@
 {
   "name": "@stdlib/utils-linked-list",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Linked list.",
   "license": "Apache-2.0",
-  "type": "module",
-  "main": "./index.mjs",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "benchmark": "./benchmark",
+    "doc": "./docs",
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples",
+    "benchmark": "make benchmark"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -13,6 +36,38 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/symbol-iterator": "^0.2.0",
+    "@stdlib/types": "^0.3.1",
+    "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.0",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.0",
+    "@stdlib/utils-define-property": "^0.2.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.0"
+  },
+  "devDependencies": {
+    "@stdlib/assert-instance-of": "^0.1.1",
+    "@stdlib/random-base-randu": "^0.1.0",
+    "proxyquire": "^2.0.0",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
+    "@stdlib/bench-harness": "^0.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "stdutils",
@@ -32,6 +87,7 @@
     "queue",
     "sequence"
   ],
+  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
