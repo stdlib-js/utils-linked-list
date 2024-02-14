@@ -20,7 +20,7 @@
 
 /* eslint-disable max-classes-per-file */
 
-/// <reference types="@stdlib/types"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
 import { IterableIterator } from '@stdlib/types/iter';
 
